@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017349806631",
+    "project_id": "budgetingbestie-36d34",
+    "storage_bucket": "budgetingbestie-36d34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017349806631:android:7d51cf6881d170421b8c02",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.budgetingbestie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHDpBtbPae1nu0z6dmEotCpxE4HUnOLbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

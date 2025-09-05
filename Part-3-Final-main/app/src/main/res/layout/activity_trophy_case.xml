@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E6E0D5">
+
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/trophyCaseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Trophy Case"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="25dp" />
+    <TextView
+        android:id="@+id/trophyCaseDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A collection of your achievements and awards."
+        android:textSize="16sp"
+        android:textColor="#2E7D32"
+        android:layout_below="@id/trophyCaseTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="40dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trophyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/trophyCaseDescription"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

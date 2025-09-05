@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E2D6"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvAddExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Expenses"
+            android:textSize="28sp"
+            android:textColor="#2C6453"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Expense Description"
+            android:textColorHint="#2C6453"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Amount"
+            android:textColorHint="#2C6453"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="DD/MM/YYYY"
+            android:inputType="date"
+            android:textColorHint="#2C6453"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Receipt Photo"
+            android:textColorHint="#2C6453"
+            android:focusable="false"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Photo"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#2C6453"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnAddExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Expense"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#2C6453"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
